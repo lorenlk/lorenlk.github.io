@@ -4,9 +4,11 @@ title:  "First Post!"
 date:   2016-05-13 18:30:00 -0400
 categories: general
 ---
-I will use this first post to try the highlighting capabilities of the jekyll environment.
+This first post will be to try the highlight capability of the jekyll environment.
 
-{% highlight VHDL %}
+This is a VHDL implementation for an ALU.
+
+{% highlight vhdl %}
 
 -- ALU
 
@@ -335,8 +337,6 @@ end hardware;
 
 {% endhighight %}
 
-That is a VHDL implementation for an ALU.
-
-Check out the [ALU][alu-def] for more info about how it works.
+Check out [ALU][alu-def] for further information.
 
 [alu-def]: https://en.wikipedia.org/wiki/Arithmetic_logic_unit
